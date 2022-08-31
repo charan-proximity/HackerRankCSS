@@ -15,7 +15,7 @@
 ```
 
 ## Jest Assertions:
-
+```
 expect(linkElement).toBeInTheDocument():
 * expect : Global starts the assertion
 * linkElement: subject of assertion
@@ -28,7 +28,7 @@ expect(linkElement).toBeInTheDocument():
 * expect(ele.textContent).toBe('Hello');
 * expect(eleArray).toHaveLength(7);
 
-
+```
 
 ## Jest Dom:
 
