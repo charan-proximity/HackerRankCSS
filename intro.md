@@ -18,16 +18,16 @@
 
 ```
     expect(linkElement).toBeInTheDocument():
-        -expect : Global starts the assertion
-        -linkElement: subject of assertion
-        -toBeInTheDocument:
-            - matcher : type of assertion
-            - this matcher comes from Jest - DOm
-            - matcher takes optional argument
+        expect : Global starts the assertion
+        linkElement: subject of assertion
+        toBeInTheDocument:
+            ⋅⋅*  matcher : type of assertion
+            ⋅⋅* this matcher comes from Jest - DOm
+            ⋅⋅*  matcher takes optional argument
 
 More Assertion Examples :
-    - expect(ele.textContent).toBe('Hello');
-    - expect(eleArray).toHaveLength(7);
+    ⋅⋅*  expect(ele.textContent).toBe('Hello');
+    ⋅⋅*  expect(eleArray).toHaveLength(7);
 ```
 
 ## Jest Dom:
